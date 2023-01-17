@@ -66,7 +66,7 @@ def show_next(prev_clicks: int, next_clicks: int) -> str:
 def show_next(text: str) -> html.Audio:
     encoded_sound = base64.b64encode(open(f"recordings/{text}.mp3", "rb").read())
     src = f"data:audio/mpeg;base64,{encoded_sound.decode()}"
-    return html.Audio(src=src, controls=True)
+    return html.Audio(src=src, controls=True, autoPlay=True)
 
 
 if __name__ == "__main__":
