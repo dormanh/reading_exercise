@@ -6,6 +6,7 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output, State
 from typing import Optional
+from unidecode import unidecode
 
 from recordingiterator import RecordingIterator
 
@@ -208,7 +209,7 @@ def show_result(n_clicks: int, typed: str, correct: str) -> Optional[str]:
             "Írj be valamit!"
             if not typed
             else "Helyes megoldás!"
-            if (typed.lower() == correct.lower())
+            if (unidecode(typed.lower().strip()) == unidecode(correct.lower().strip()))
             else "Próbáld újra!"
         )
 
