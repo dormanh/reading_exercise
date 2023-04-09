@@ -1,1 +1,1 @@
-ember   állat   növény  tárgy   anya    apa    gyerek   fiú lány
+ember   állat   növény  tárgy   anya    apa    gyerek   fiú lány    öreg    fiatal  vidám   szomorú édes    sós piros   sárga   kék zöld    lila    fekete  fehér   barna
