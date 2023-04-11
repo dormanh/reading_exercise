@@ -16,7 +16,7 @@ def convert_word(word: str) -> bool:
 def is_to_convert(word: str, max_len: int = 10) -> bool:
     """Only convert words below the given length that haven't been converted yet."""
     return (not Path(f"recordings/for_typing/{word}.mp3").exists()) & (
-        len(word) <= max_len
+        0 < len(word) <= max_len
     )
 
 

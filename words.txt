@@ -1,1 +1,9 @@
-ember   állat   növény  tárgy   anya    apa    gyerek   fiú lány    öreg    fiatal  vidám   szomorú édes    sós piros   sárga   kék zöld    lila    fekete  fehér   barna
+ember   állat   növény  tárgy
+anya    apa    gyerek   fiú lány testvér öcs   nővér unoka  nagymama    nagypapa szülő
+öreg    fiatal  vidám   szomorú édes sós    keserű  savanyú    kedves durva  álmos éhes szomjas  fáradt
+piros   sárga   kék zöld    lila    fekete  fehér szürke   barna   arany   ezüst   világos sötét
+gyümölcs    zöldség alma    körte   narancs banán   citrom  paradicsom  paprika saláta  uborka  hagyma
+reggeli ebéd    vacsora étel    ital    kenyér  sajt    sonka    leves  víz kávé    tea tej    tányér  pohár
+konyha  nappali fürdő   hálószoba   ház kert    autó    lámpa   ajtó    ablak   szőnyeg függöny szék    asztal
+eszik   iszik   ír  olvas   beszél  áll megy    sétál   dolgozik    tanul   alszik  pihen   fut biciklizik
+szia    viszlát köszönöm    kérem   szívesen    üdvözlettel tisztelt
